@@ -9,6 +9,10 @@
   flex-direction: row;
 }
 
+.small-card__title>h1 {
+  font-size: 30px;
+}
+
 .small-card__photo>img {
   width: 200px;
   min-width: 200px;
