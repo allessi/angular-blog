@@ -4,10 +4,10 @@
     <img src="{{photoCover}}" alt="Imagem nova versão do Angular" height="200px" srcset="">
   </div>
   <div class="big-card__title">
-    <h1><a href="{{photoCover}}" target="_blank" rel="noopener">{{cardTitle}}</a></h1>
+    <h1><a [routerLink]="['content',Id]">{{cardTitle}}</a></h1>
   </div>
   <div class="big-card__description">
-    <p><a href="{{photoCover}}" target="_blank" rel="noopener">{{cardDescription}}</a>
+    <p><a [routerLink]="['content',Id]">{{cardDescription}}</a>
     </p>
   </div>
 </div>
